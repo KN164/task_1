@@ -13,6 +13,12 @@ class DiceGame{
       System.out.println("Dic 2: "+num2);
       
       System.out.println("Total value: "+(num1+num2));
+      
+      if(num1+num2>7){
+	  System.out.println("You won");
+      }else{
+	  System.out.println("You lost");
+      }
   }
     
 }
